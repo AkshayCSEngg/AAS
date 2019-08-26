@@ -31,25 +31,35 @@ features:
 # Getting Information 
 Information related to the Employees and Users on each page. So we need two Web services one for the Employees and another for the Users. 
 
-Some of the methods of Employee Services are:
+*Some of the methods of Employee Services are:
 
-      public List<Employee> getEmployees();     -> List of 50 employees from different companies as well as from different profiles.
+      public List<Employee> getEmployees(String UserId);     -> Returns List of 30 employees from different companies as well as from different designation as per the interest of the User which would be getting by the help of UserId. If the interect section is not having anything or null then it will return the highly rated employees.
       
-      public List<Employee> getEmployeesByCompanyName(String companyName);     ->List of 50 employee from same company which is companyName
+      public List<Employee> getEmployeesByCompanyName(String companyName);     -> Returns List of 30 employee from same company which is companyName in the parameter.
       
-      public List<Employee> getEmployeesByCompanyType(String companyType);(MNC/Startup/...)
-      public List<Employee> getEmployeesByExperiece(float startingPoint); -> this method would return Employee list of having experience more than startingpoint.
-      public Employee getEmployeeDetails(String someUniqueColumnVariable);
+      public List<Employee> getEmployeesByCompanyType(String companyType);   -> Returns List of 30 employee as per the company type for Example: MNC, StartUp etc. 
+      
+      public List<Employee> getEmployeesByExperiece(float startingPoint); -> Returns List of 30 employee list of having experience more than startingpoint.
+      
+      public Employee getEmployeeDetails(String someUniqueColumnVariable);   -> It will return all the information of Employee.
       
  
- method of User Services:
+*Method of User Services:
       
-      public User getUserDetails(String someUniqueColumnVariable);
+      public User getUserDetails(String someUniqueColumnVariable);   -> It will return all the information of User.
       
+ # Storing Information
+ 
+  *Some of the methods of Employee Services are:
+  
+      public void save(Employee entity);
       
+*Method of User Services:
+      
+      public void save(Employee entity);
       
 
-This application would have following functionality/modules:
+*This application would have following functionality/modules:
 
       1. Login and SignUp page 
       2. Home page
