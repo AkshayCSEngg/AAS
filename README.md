@@ -15,6 +15,40 @@ features:
       7. Employee will get money directly to the bank account within an hour.
       8. Employee can select when they'll credited amount in the bank by setting up the threshold amount like after 100 rs or after 1 month.(future release).
 
+# Main tasks/API's of AAS:
+
+      1. Getting Information
+      2. Storing Information
+      3. Experience
+      4. Ratings
+      5. Suggestions(right now it's based on the user interest)
+      6. Voice API Integration
+      7. Availability
+      8. Requesgt to call.
+      9. Wallet.
+      10. Payment Gateway
+
+# Getting Information 
+Information related to the Employees and Users on each page. So we need two Web services one for the Employees and another for the Users. 
+
+Some of the methods of Employee Services are:
+
+      public List<Employee> getEmployees();     -> List of 50 employees from different companies as well as from different profiles.
+      
+      public List<Employee> getEmployeesByCompanyName(String companyName);     ->List of 50 employee from same company which is companyName
+      
+      public List<Employee> getEmployeesByCompanyType(String companyType);(MNC/Startup/...)
+      public List<Employee> getEmployeesByExperiece(float startingPoint); -> this method would return Employee list of having experience more than startingpoint.
+      public Employee getEmployeeDetails(String someUniqueColumnVariable);
+      
+ 
+ method of User Services:
+      
+      public User getUserDetails(String someUniqueColumnVariable);
+      
+      
+      
+
 This application would have following functionality/modules:
 
       1. Login and SignUp page 
