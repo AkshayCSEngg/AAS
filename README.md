@@ -1,11 +1,11 @@
  # AAS
 
-An application where student can /contact/ to the employees of any company from any where in the world.
+An application where student can contact to the employees of any company from any where in the world.
 We'll use Android for front end, SQL for back end and Java language for business logics (Restful web services).
 
 features: 
 
-      1. User can connect via Internet.
+      1. User can connect to the employee via Internet voice call.
       2. User can call from dashboard/home page where they get the employees data as per their interest (by default they will get highly rated employees data).
       3. User can recharge their wallet using different payment sources.
       4. User can call by filter option that includes: domain,experience, company, ratings etc. by clicking on call button.
@@ -69,8 +69,9 @@ Method of User Services:
 # Experience:
  Experience will get as per the duration from joining date in the comapny to the current date.
  it would return in the following formate:
- 					below 12 months result would be in String example if its 3 months and 15 days it will return "3.5 months"
-						above 12 months result would be in String example if it's 1 year, 2 months and 12 days it will return "1.2+ years"
+ 
+ below 12 months result would be in String example if its 3 months and 15 days it will return "3.5 months"
+ above 12 months result would be in String example if it's 1 year, 2 months and 12 days it will return "1.2+ years"
  and the method would be
 	
 	     public String getExperience(String EmpId);
