@@ -64,6 +64,16 @@ Method of User Services:
       public void save(User entity);
       
       public boolean update_Filed_Name(String userId, _Field_Variable_type_ fieldName );
+  
+
+# Experience:
+ Experience will get as per the duration from joining date in the comapny to the current date.
+ it would return in the following formate:
+ 					below 12 months result would be in String example if its 3 months and 15 days it will return "3.5 months"
+						above 12 months result would be in String example if it's 1 year, 2 months and 12 days it will return "1.2+ years"
+ and the method would be
+	
+	     public String getExperience(String EmpId);
 
 * This application would have following functionality/modules:
 
