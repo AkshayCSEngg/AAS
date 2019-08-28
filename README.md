@@ -86,12 +86,17 @@ Method of User Services:
  	
 	Satisfatory -> 5  ,	Average -> 6  ,		Poor = -> 3
 	
-		average = abs(Satisfatory+Average-Poor)/2
-		scaling = average % 5
+	formula:
+		average  =  abs(Satisfatory+Average-Poor)/2
+		scaling  =  average % 5
+		Rating   =  "Satisfactory" if scaling greater than 2.5 
+		            || "Average" if scaling is 2.5 
+			    || "Poor" if scaling smaller than 2.5
 		
-	to get in the scale of 5 = average%5 = 4%5 = 4
+		average  =  abs(5+6-3)/2  =  4
+		scaling  =  4 % 5  =  4
+		rating   =  "Satisfactory" 
 	
- IF the final value is more than 2.5(half of 5, the scale value) then rating is satisfactory. If it's below that than it's poor. If it's 2.5 then average.
 
 
 # Suggestions(right now it's based on the user interest)
