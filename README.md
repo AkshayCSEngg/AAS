@@ -136,11 +136,15 @@ Method of User Services:
 
 * This application would have following functionality/modules:
 
-      1. Login and SignUp page 
-      2. Home page
+      1. Login and SignUp page
+      2. Notifications
       3. Wallet
       4. Logs
       5. Profile
+      6. Calling
+
+
+
 
 1. Login and SignUp : User first needs to register, on registration page following information must be required as per the Users (Employee/Student):
       
