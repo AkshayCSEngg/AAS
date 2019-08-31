@@ -130,39 +130,6 @@ Method of User Services:
  	getBalance()
 	rechargeWallet()
 	updateBalance()
-	getRecord()
-	setRecord()
+	getLog()
+	updateRecord()
 
-
-* This application would have following functionality/modules:
-
-      1. Login and SignUp page
-      2. Notifications
-      3. Wallet
-      4. Logs
-      5. Profile
-      6. Calling
-
-
-
-
-1. Login and SignUp : User first needs to register, on registration page following information must be required as per the Users (Employee/Student):
-      
-      Common information
-      a) Full Name
-      b) DOB
-      c) Email/Contact no.
-      
-      Student/Enquirer:
-      a) Interesting Company Type(Startup/MNC/CMMI level)
-      a) Interesting companies
-      b) Interesting Fields(future release)
-      
-      Employee:
-      a) Company name.
-      b) Experience:
-          b.1) Experience in current company. 
-          b.2) Experience in Previous Company if any.
-      c) Designation.
-      d) Domain.
-   
