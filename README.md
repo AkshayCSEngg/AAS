@@ -125,7 +125,7 @@ Method of User Services:
  This Api will manage the flow of communication it will allow the notification system. If an employee is not available user can request to inform and will get the notification when the employee gets available or comes online.
  
 # Wallet and Payment Gateway.
- This whould have the information about the balance a person have with the payment recharge. 
+ This would have the information about the balance a person have with the payment recharge. 
  
  	getBalance()
 	rechargeWallet()
